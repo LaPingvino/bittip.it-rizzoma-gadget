@@ -4,13 +4,7 @@
     <Require feature="opensocial-0.8"/>
   </ModulePrefs>
   <Content type="html"><![CDATA[
-    <script type="text/javascript">
-        function init() {
-           document.getElementById("handler").innerHTML = "Hello, world.";
-        }
-        gadgets.util.registerOnLoadHandler(function() { init(); });
-    </script>
-
-    <div id="handler"></div>
+<a href="http://bittip.it/" class="bittip-button" default-amount="0.001" default_currency="btc" request="count" url="" donation-message="Koran%20dankon!" donation-address="19xFuJMkcJhQYnqaTRoCKxjTbMSDBAGAKB"></a>
+<script>(function() {var s = document.createElement('script');var t = document.getElementsByTagName('script')[0];s.type = 'text/javascript';s.async = true;var url; if (window.location.protocol == 'https:'){url = 'https://bitcoinsberlin.com/wp-content/uploads/2013/01/button-loader.js'} else { url = 'http://bittip.it/cdn/button-loader.js';};s.src = url;t.parentNode.insertBefore(s, t);})();</script>
     ]]></Content>
 </Module>
