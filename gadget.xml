@@ -9,8 +9,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<a href="http://bittip.it/" class="bittip-button" default-amount="0.001" default_currency="btc" request="count" url="" donation-message="Koran%20dankon!" donation-address="19xFuJMkcJhQYnqaTRoCKxjTbMSDBAGAKB"></a>
-<script>(function() {var s = document.createElement('script');var t = document.getElementsByTagName('script')[0];s.type = 'text/javascript';s.async = true;var url; url = 'https://bitcoinsberlin.com/wp-content/uploads/2013/01/button-loader.js';s.src = url;t.parentNode.insertBefore(s, t);})();</script>
+<iframe src="http://bittip.it/donate-iframe/?donation_amount=0.001&donation_url=http://bittip.it/projects/&donation_address=1LVc9bCWTSvGeLg7ssUxERjN9MP9AUx3AC&donation_message=Thanks!&default_currency=undefined" />
 </body>
 </html>
     ]]></Content>
